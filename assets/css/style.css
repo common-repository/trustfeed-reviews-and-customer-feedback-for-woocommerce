@@ -1,0 +1,517 @@
+﻿.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+	float: left;
+}
+.col-xs-12 {
+	width: 100%;
+}
+.col-xs-11 {
+	width: 91.66666667%;
+}
+.col-xs-10 {
+	width: 83.33333333%;
+}
+.col-xs-9 {
+	width: 75%;
+}
+.col-xs-8 {
+	width: 66.66666667%;
+}
+.col-xs-7 {
+	width: 58.33333333%;
+}
+.col-xs-6 {
+	width: 50%;
+}
+.col-xs-5 {
+	width: 41.66666667%;
+}
+.col-xs-4 {
+	width: 33.33333333%;
+}
+.col-xs-3 {
+	width: 25%;
+}
+.col-xs-2 {
+	width: 16.66666667%;
+}
+.col-xs-1 {
+	width: 8.33333333%;
+}
+
+@media (min-width: 768px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+		float: left;
+	}
+	.col-sm-12 {
+		width: 100%;
+	}
+	.col-sm-11 {
+		width: 91.66666667%;
+	}
+	.col-sm-10 {
+		width: 83.33333333%;
+	}
+	.col-sm-9 {
+		width: 75%;
+	}
+	.col-sm-8 {
+		width: 66.66666667%;
+	}
+	.col-sm-7 {
+		width: 58.33333333%;
+	}
+	.col-sm-6 {
+		width: 50%;
+	}
+	.col-sm-5 {
+		width: 41.66666667%;
+	}
+	.col-sm-4 {
+		width: 33.33333333%;
+	}
+	.col-sm-3 {
+		width: 25%;
+	}
+	.col-sm-2 {
+		width: 16.66666667%;
+	}
+	.col-sm-1 {
+		width: 8.33333333%;
+	}
+}
+@media (min-width: 992px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+	.col-md-11 {
+		width: 91.66666667%;
+	}
+	.col-md-10 {
+		width: 83.33333333%;
+	}
+	.col-md-9 {
+		width: 75%;
+	}
+	.col-md-8 {
+		width: 66.66666667%;
+	}
+	.col-md-7 {
+		width: 58.33333333%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-5 {
+		width: 41.66666667%;
+	}
+	.col-md-4 {
+		width: 33.33333333%;
+	}
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-2 {
+		width: 16.66666667%;
+	}
+	.col-md-1 {
+		width: 8.33333333%;
+	}
+}
+@media (min-width: 1200px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: left;
+	}
+	.col-lg-12 {
+		width: 100%;
+	}
+	.col-lg-11 {
+		width: 91.66666667%;
+	}
+	.col-lg-10 {
+		width: 83.33333333%;
+	}
+	.col-lg-9 {
+		width: 75%;
+	}
+	.col-lg-8 {
+		width: 66.66666667%;
+	}
+	.col-lg-7 {
+		width: 58.33333333%;
+	}
+	.col-lg-6 {
+		width: 50%;
+	}
+	.col-lg-5 {
+		width: 41.66666667%;
+	}
+	.col-lg-4 {
+		width: 33.33333333%;
+	}
+	.col-lg-3 {
+		width: 25%;
+	}
+	.col-lg-2 {
+		width: 16.66666667%;
+	}
+	.col-lg-1 {
+		width: 8.33333333%;
+	}
+}
+
+ 
+.tf-row{	
+	float: left;    
+	width: 100%;    
+	background: #dcdde0;    
+	border-radius: 10px;    
+	border: 1px solid #ddd;    
+	margin-bottom: 30px;
+}
+.tf-left{    
+	background: #fff;    
+	padding: 20px 0;    
+	border-radius: 10px 0 0 10px;
+}
+.tf-out5{    
+	color: #1f1f1f;    
+	font-size: 14px;	
+	font-weight: 700;	
+	text-align: center;
+}
+.tf-review-count{    
+	width: 100%;    
+	text-align: center;    
+	color: #000;    
+	font-size: 19px;    
+	font-weight: 500;    
+	padding: 14px 0;    
+	margin: 0;
+}
+.tf-star{	
+	float: none;    
+	text-align: center;    
+	margin: auto;    
+	display: table;    
+	padding: 0;
+}
+.tf-star-rating{    
+	float: right;    
+	overflow: hidden;    
+	position: relative;    
+	height: 1em;    
+	line-height: 1;    
+	font-size: 1em;    
+	font-family: star;	
+	width: 100%;    
+	min-height: 25px;    
+	margin: 0;
+}
+.tf-star-rating::before{	
+	font-family: "star";    
+	content: '\53\53\53\53\53';    
+	font-size: 19px;    
+	line-height: 24px;    
+	position: inherit;
+}
+.tf-star-rating .star-width{	
+	overflow: hidden;    
+	float: left;    
+	top: 0;    
+	font-weight: 300;    
+	left: 0;    
+	position: absolute;    
+	padding-top: 1.5em;
+}
+.tf-star-rating .star-width:before{	
+	position: inherit;	
+	top: 0;    
+	left: 0;	
+	font-family: "star";    
+	content: '\53\53\53\53\53';    
+	font-size: 19px;    
+	line-height: 24px;    
+	color: #21a8d8;
+}
+.progress-star-line i{     
+	color: #7d7d7d;
+} 
+.tf-progress-starbar{	
+	padding: 15px 15px 15px 0;	
+	border-top: 3px solid #000;    
+	border-left: 0;
+}
+.tf-progress-left{	
+	float: left;    
+	width: 50%;    
+	padding-right: 5px;
+}
+.tf-progress-right{	
+	float: left;    
+	width: 50%;    
+	padding-left: 5px;
+}
+.tf-progress-left .tf-progress-star{    
+	float: left;    
+	width: 20%;    
+	text-align: center;    
+	display: grid;    
+	padding: 0;	
+	margin: 0;    
+	height: 25px;
+}
+.tf-progress-left .progress-star-line{ }
+.tf-progress-right .tf-progress-bar{	
+	float: left;    
+	width: 100%;    
+	list-style: none;    
+	padding: 0;	
+	margin: 0;    
+	display: grid;    
+	height: 25px;
+}
+.tf-progress-right .progress-bar-line{	
+	height: 6px;    
+	margin-bottom: 0px;    
+	overflow: hidden;    
+	background-color: #eaeaea;    
+	border-radius: 2px;    
+	box-shadow: none;    
+	margin: 10px 0;	
+	width: auto;
+}
+.tf-progress-right .tf-progress-bar{
+	
+}
+.tf-progress-text{	
+	position: absolute;	
+	right: 15px;	
+	font-size: 12px;	
+	font-weight: 600;
+}
+.tf-progress-right .tf-progress-bar:nth-child(1) .tf-progress-text{	
+	top:5px;
+}
+.tf-progress-right .tf-progress-bar:nth-child(2) .tf-progress-text{	
+	top:30px;
+}
+.tf-progress-right .tf-progress-bar:nth-child(3) .tf-progress-text{	
+	top:55px;
+}
+.tf-progress-right .tf-progress-bar:nth-child(4) .tf-progress-text{	
+	top:80px;
+}
+.tf-progress-right .tf-progress-bar:nth-child(5) .tf-progress-text{	
+	top:105px;
+}
+.tf-progress-width{	
+	background-color: #868688;    
+	box-shadow: none;    
+	height: 100%;
+}
+.tf-question{	
+	padding-top: 15px;    
+	padding-bottom: 15px;
+}
+.tf-question a{    
+	float: left;    
+	width: 100%;    
+	font-size: 18px;    
+	background: #21a8d8;    
+	color: #fff;    
+	border-radius: 22px;    
+	padding: 11px 5px;    
+	text-align: center;    
+	margin-bottom: 20px;    
+	border: 2px solid #21a8d8;
+}
+.tf-user-bg{
+    float: left;
+    width: 100%;
+    background: #eeeff3;
+    padding: 0px 25px;
+}
+.tf-bg-order-left{
+    float: left;
+    width: 25%;
+}
+.tf-bg-order-right{
+    float: right;
+    width: 27%;
+}
+.tf-user-middle{
+	float: left;
+    width: 100%;
+    padding: 20px 0;
+    height: 100%;
+    overflow-x: auto;
+}
+.tf-chat-user{
+	float: left;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 34px;
+}
+.tf-chat-user-img{
+	float: left;
+    width: 25%;
+}
+.tf-chat-user-img .darkCircle{
+    height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 7px;
+}
+.tf-chat-user-img .darkCircle span.full-name{
+	letter-spacing: -2px;
+    margin-left: -4px;
+}
+.tf-chat-user-content{
+	float: left;
+    width: 75%;
+    position: relative;
+}
+.tf-chat-user::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 24px solid #fff;
+    border-left: 0px solid transparent;
+    border-right: 47px solid transparent;
+    bottom: -23px;
+    left: 81px;
+}
+.tf-content-inner{
+	float: left;
+    width: 100%;
+}
+.woocommerce-tabs .tf-content-inner h2{
+	font-size: 16px;
+    margin: 0;
+    display: block;
+    padding: 0;
+    text-align: left;
+}
+.tf-content-inner .tf-star{
+	float: right;
+    margin: 0;
+    top: 10px;
+    position: absolute;
+	right: 0;
+}
+.tf-comment-intro{
+    float: left;
+    width: 100%;
+    color: #8d8d8d;
+}
+.tf-review-text{
+    float: left;
+    width: 100%;
+    color: #444;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.tf-row .tf-left .reviewscount h1{
+	text-align:center;
+}
+p.tf-powerlogo{
+	text-align:center;
+}
+ 
+
+@media screen and (min-width: 768px){
+	.tf-progress-starbar{
+		/*border-left: 4px solid #000;
+		border-top: 0;*/
+	}
+}
+@media screen and (min-width: 960px){
+	.tf-progress-starbar{
+		/*border-left: 4px solid #000;
+		border-top: 0;*/
+	}
+}
+@media screen and (min-width: 992px){
+	.progress-star-line{
+		padding-bottom:0px;
+	}
+}
+ 
+@media screen and (min-width: 1200px){
+	.tf-progress-starbar{
+		border-top: 3px solid #000;
+		border-left: 0;
+	}
+}
+@media screen and (max-width: 767px){
+	.tf-progress-starbar{
+		border-top: 3px solid #000;
+		border-left: 0;
+	}
+}
+@media screen and (max-width: 640px){
+	.tf-chat-user-img{
+		width: 30%;
+	}
+	.tf-chat-user-content{
+		width: 70%;
+	}
+	.tf-content-inner{
+		width:100%;
+	}
+	.tf-content-inner .tf-star{
+		float:none;
+		margin-left:0;
+	}
+}
+@media screen and (max-width: 480px){
+	.tf-chat-user-img {
+		width: 30%;
+	}
+	.tf-chat-user-content{
+		width: 70%;
+	}
+	.tf-content-inner{
+		width:100%;
+	}
+	.tf-user-middle{
+		padding:20px 0;
+	}
+}
+@media screen and (max-width: 420px){
+	.woocommerce-tabs .tf-content-inner h2{
+		width: 100%;
+		padding: 0 10px;
+    }
+	.tf-content-inner .tf-star{
+		float: right;
+		position: inherit;
+	}
+}
+
+
+
+ 
